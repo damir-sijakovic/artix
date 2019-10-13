@@ -11,23 +11,23 @@ If you are not familiar with virtual machines you should
 first go watch tutorials about VirtualBox (on YouTube) before you do this guide. 
 
 
-##Download ISO
+## Download ISO
 Go to [download site](https://artixlinux.org/download.php).
 
 Download iso starting with 'artix-base-openrc'.
 
 
-##Install
+## Install
 
 In VirtualBox select default ArchLinux 64 preset.
 
-###Boot from ISO
+### Boot from ISO
 
 Default user/pass is artix/artix. So login as artix. and become super user:
     
         su - 
 
-###Prepare partiton
+### Prepare partiton
 Run cfdisk tool to prepare partition.
 
         cfdisk /dev/sda 
@@ -43,38 +43,38 @@ Mount new drive to /mnt:
 
         mount /dev/sda1 /mnt
 
-##Test internet connection
+## Test internet connection
 
         ping artixlinux.org
         
-##Install base    
+## Install base    
 Install kernel and base system components.
 
         pacman -Syy
         basestrap /mnt base base-devel openrc
         basestrap /mnt linux linux-firmware 
     
-##fstab
+## fstab
 Generate and check the fstab file.
 Tell system about your harddrive.
     
         fstabgen -U /mnt >>/mnt/etc/fstab
         nano /mnt/etc/fstab 
 
-##chroot 
+## chroot 
 Log into new system:
 
         artools-chroot /mnt
 
 
 
-##Install grub and text editors
+## Install grub and text editors
 Grub is bootloader while vi and nano are text editors.
  
         pacman -S vi nano grub os-prober
 
 
-##Locale
+## Locale
 
 Set time zone. For example my locale is '/usr/share/zoneinfo/Europe/Zagreb'
 
@@ -105,14 +105,14 @@ And finally make changes permanent:
         rc-update add consolefont boot
 
 
-##Bootloader
+## Bootloader
 
 Setup and install bootleader:
 
         grub-install --recheck /dev/sda
         grub-mkconfig -o /boot/grub/grub.cfg
 
-##Users
+## Users
 
 Setup user and superuser.
 
@@ -138,7 +138,7 @@ To exit and save visudo type:
 
         :wq  
 
-##Network
+## Network
 
 Add myhost to /etc/hostname:
 
@@ -184,7 +184,7 @@ Test rules after reboot:
         sudo iptables -L
         sudo ip6tables -L
         
-##Reboot
+## Reboot
   
 After reboot remove iso from VirtualBox.
         
@@ -192,7 +192,7 @@ After reboot remove iso from VirtualBox.
         umount -R /mnt
         reboot
         
-##Post-installation tests
+## Post-installation tests
     uname -a
     ping google.com
     

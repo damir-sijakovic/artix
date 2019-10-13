@@ -35,7 +35,7 @@ Run cfdisk tool to prepare partition.
         cfdisk /dev/sda 
         
 Select type DOS, make one partition with default options. After that select
-[bootable] and [write]. Don't forget to type 'yes'. 
+[new], [primary], [bootable] and [write]. Don't forget to type 'yes'. 
 
 Use mkfs.ext4 tool to format partition:
 

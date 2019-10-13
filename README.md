@@ -1,3 +1,5 @@
+![artix](https://repository-images.githubusercontent.com/214817653/23b7c900-edc8-11e9-874c-eb8fa1148091)
+
 # Artix Linux
 
 Headless OpenRC based Archlinux system installation guide

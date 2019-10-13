@@ -158,7 +158,7 @@ Install NetworkManager:
         pacman -S networkmanager networkmanager-openrc network-manager-applet
         rc-update add NetworkManager default
 
-Setup firewall:
+Setup firewall (you can skip these and setup firewall after reboot):
 
         nano /etc/iptables/drop.rules
         
@@ -173,8 +173,8 @@ Add these lines to file:
     
 Enable firewall on startup, create startup script:
 
-        sudo touch /etc/local.d/iptables.start
-        sudo chmod +x /etc/local.d/iptables.start
+        touch /etc/local.d/iptables.start
+        chmod +x /etc/local.d/iptables.start
 
 Add commands to script (Note: these are VM test firewall rules, you can find better rules online):
 

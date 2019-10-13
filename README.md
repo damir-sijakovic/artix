@@ -132,7 +132,7 @@ To test if user was added in groups:
 
         groups myusername
 
-Use 'visudo' to enable 'sudo' command for user uncomment '%wheel ALL=(ALL) ALL':
+Use 'visudo' to enable 'sudo' command for user. Uncomment '%wheel ALL=(ALL) ALL':
 
         visudo        
  

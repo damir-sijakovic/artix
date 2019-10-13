@@ -6,7 +6,7 @@ Headless OpenRC based Archlinux system installation guide
 
 ---
 
-##Preparation
+## Preparation
 Before install on real hardware you should practice on VM like VirtualBox/Qemu or
 old laptop and write down installation notes.
 If you are not familiar with virtual machines you should 

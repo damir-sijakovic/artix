@@ -1,6 +1,6 @@
 # Artix Linux
 
-Headless OpenRC based Archlinux system installation guide
+Archlinux with OpenRC guide
 
 ---
 

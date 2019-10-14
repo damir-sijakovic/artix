@@ -1,3 +1,5 @@
+![artix](https://repository-images.githubusercontent.com/214817653/c5790c00-eed5-11e9-86cd-309180bf4130)
+
 # Artix Linux
 
 Archlinux with OpenRC guide

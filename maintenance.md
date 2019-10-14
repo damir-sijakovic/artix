@@ -1,4 +1,4 @@
-# Artix Linux - Maintenance
+# Artix Linux - Apps & Update
 
 Archlinux with OpenRC guide 
 

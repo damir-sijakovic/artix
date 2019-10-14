@@ -8,17 +8,17 @@ Archlinux with OpenRC guide
 
 ## Install
 
-[Minimal Install](https://artixlinux.org/download.php)
+[Minimal Install](https://github.com/damir-sijakovic/artix/blob/master/install.md)
 
-[Minimal Install (only commands)](https://artixlinux.org/download.php)
+[Minimal Install (only commands)](https://github.com/damir-sijakovic/artix/blob/master/install_short.md)
 
 ## Usage
 
-[Maintenance](https://artixlinux.org/download.php)
+[Maintenance](https://github.com/damir-sijakovic/artix/blob/master/maintenance.md)
+[Security](https://github.com/damir-sijakovic/artix/blob/master/security.md)
+[Headless](...)
+[Minimal win7-like desktop](https://github.com/damir-sijakovic/artix/blob/master/minimal_desktop.md)
 
-[Headless](https://artixlinux.org/download.php)
-
-[Minimal win7-like desktop](https://artixlinux.org/download.php)
 
 ## Directions
 

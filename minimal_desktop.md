@@ -27,7 +27,7 @@ To add fonts create .fonts folder and drop font files inside.
 Go to Settings->Appearance to set theme and font.
 
 
-## Local issues
+## Local Keyboard
 
 To setup keymaps, go to menu Settings->Keyboard->Layout.
 Click edit and choose your locale keyboard layout.

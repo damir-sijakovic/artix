@@ -193,8 +193,9 @@ After reboot remove iso from VirtualBox.
         reboot
         
 ##Post-installation tests
-    uname -a
-    ping google.com
+
+        uname -a
+        ping google.com
     
             
         

@@ -1,6 +1,6 @@
 # Artix Linux - Minimal Desktop
 
-(requires base install) Archlinux with OpenRC guide 
+Archlinux with OpenRC guide 
 
 ---
 

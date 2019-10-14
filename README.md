@@ -23,14 +23,6 @@ Archlinux with OpenRC guide
 [Minimal win7-like desktop](https://github.com/damir-sijakovic/artix/blob/master/minimal_desktop.md)
 
 
-## Directions
-
-[PHP Web Development](...)
-
-[NodeJS Web Development](...)
-
-[Graphics](...)
-
 
         
 ---

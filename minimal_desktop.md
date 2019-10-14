@@ -11,7 +11,7 @@ close to Windows7 but more configurable and simpler to use.
 
 ## Install packages
 
-After base install you have rebooted into new system. Then run:
+After base install and when you have booted into new system, run:
 
         sudo pacman -S xfce4 xfce4-goodies pamac firefox    
         

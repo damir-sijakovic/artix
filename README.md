@@ -15,8 +15,11 @@ Archlinux with OpenRC guide
 ## Usage
 
 [Maintenance](https://github.com/damir-sijakovic/artix/blob/master/maintenance.md)
+
 [Security](https://github.com/damir-sijakovic/artix/blob/master/security.md)
+
 [Headless](...)
+
 [Minimal win7-like desktop](https://github.com/damir-sijakovic/artix/blob/master/minimal_desktop.md)
 
 

@@ -14,7 +14,7 @@ Archlinux with OpenRC guide
 
 ## Usage
 
-[Maintenance](https://github.com/damir-sijakovic/artix/blob/master/maintenance.md)
+[Apps & Update](https://github.com/damir-sijakovic/artix/blob/master/maintenance.md)
 
 [Security](https://github.com/damir-sijakovic/artix/blob/master/security.md)
 
@@ -25,11 +25,11 @@ Archlinux with OpenRC guide
 
 ## Directions
 
-[PHP Web Development](https://artixlinux.org/download.php)
+[PHP Web Development](...)
 
-[NodeJS Web Development](https://artixlinux.org/download.php)
+[NodeJS Web Development](...)
 
-[Graphics](https://artixlinux.org/download.php)
+[Graphics](...)
 
 
         

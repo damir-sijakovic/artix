@@ -51,3 +51,6 @@ Google:
 Simply Logout.
         
 ---
+![alt text](https://raw.githubusercontent.com/damir-sijakovic/artix/master/files/xfce.png)
+
+XFCE desktop

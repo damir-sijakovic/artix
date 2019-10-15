@@ -18,7 +18,7 @@ Archlinux with OpenRC guide
 
 [Security](https://github.com/damir-sijakovic/artix/blob/master/security.md)
 
-[Headless](...)
+[Headless](https://github.com/damir-sijakovic/artix/blob/master/headless.md)
 
 [Minimal win7-like desktop](https://github.com/damir-sijakovic/artix/blob/master/minimal_desktop.md)
 

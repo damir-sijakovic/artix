@@ -1,4 +1,4 @@
- Artix Linux - Headless Usage (for fun)
+# Artix Linux - Headless Usage (for fun)
 
 (requires base install) Archlinux with OpenRC guide 
 

@@ -65,4 +65,22 @@ To make Firefox use new directory to store settings:
       
 [More examples](https://firejail.wordpress.com/documentation-2/basic-usage/)
         
+## Monitoring
+
+Wireshark is network protocol analyzer. To install run:
+            
+        pacman -S wireshark
+        
+You will need to run wireshark with sudo, after select your interface, 'enp0s3' here in virtualbox:
+
+        sudo wireshark
+
+Open terminal and run:
+
+       ping google.com
+    
+You should see traffic in wireshark window.
+       
+
+        
 ---

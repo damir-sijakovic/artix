@@ -184,7 +184,7 @@ Test rules after reboot:
         sudo iptables -L
         sudo ip6tables -L
         
-##Reboot
+## Reboot
   
 After reboot remove iso from VirtualBox.
         
@@ -192,7 +192,7 @@ After reboot remove iso from VirtualBox.
         umount -R /mnt
         reboot
         
-##Post-installation tests
+## Post-installation tests
 
         uname -a
         ping google.com

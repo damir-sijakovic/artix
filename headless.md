@@ -4,6 +4,8 @@
 
 ---
 
+![alt text](https://github.com/damir-sijakovic/artix/blob/master/files/terminal_login.png)
+
 ## Intro
 
 Basically here we will try to use terminal for fun.  

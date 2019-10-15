@@ -68,7 +68,10 @@ Termboy is based on Higan, but uses ncurses to render the screen.
 To install type:
 
     trizen -S termboy
- 
+
+To run:
+
+    termboy wario3.gb
  
  
  

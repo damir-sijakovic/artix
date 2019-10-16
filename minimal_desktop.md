@@ -13,7 +13,7 @@ close to Windows7 but more configurable and simpler to use.
 
 After base install and when you have booted into new system, run:
 
-        sudo pacman -S xfce4 xfce4-goodies pamac xarchiver p7zip pulseaudio firefox    
+        sudo pacman -S xfce4 xfce4-goodies pamac xarchiver p7zip unzip pulseaudio firefox    
         
 After installation run:
 

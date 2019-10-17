@@ -75,6 +75,20 @@ To run:
 
     termboy wario3.gb
  
+ ## Terminal Prompt and Color
  
+![alt text](https://github.com/damir-sijakovic/artix/blob/master/files/termcolor.png)
+
+To change prompt edit type:
+
+    nano ~/.bashrc
+
+change 'PS1' part:
+
+    PS1='$ '
+    
+To change color add to ~/.bashrc: 
+
+    setterm -foreground black -background white -store 
  
            

@@ -90,5 +90,5 @@ change 'PS1' part:
 To change color add to ~/.bashrc: 
 
     setterm -foreground black -background white -store 
- 
+    clear
            

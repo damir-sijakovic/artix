@@ -117,5 +117,12 @@ enable file read-write for regular user.
     echo "<?php echo 'hello user-writable php!'; ?>" /srv/webdev/my_projects/test.php
     firefox http://localhost:8080/my_projects/test.php
 
+## Install IDE
+
+The PHP IDE project delivers a PHP Integrated Development Environment framework for the Eclipse platform.
+To install run:
+
+    sudo pacman -S eclipse-php
+
 
 ---

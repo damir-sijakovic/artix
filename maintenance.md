@@ -30,6 +30,10 @@ To update system run (you don't need to be inside desktop/X):
     After install 'Add/Remove programs' and 'Software update' appears in Settings menu.
 
         pacman -Ss pamac
+        
+## To see all files installed with package:
+
+        pacman -Ql package_name
 
 
 ## More programs

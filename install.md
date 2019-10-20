@@ -153,7 +153,7 @@ Add to /etc/hosts:
 
 Install NetworkManager: 
    
-        pacman -S networkmanager networkmanager-openrc network-manager-applet
+        pacman -S networkmanager networkmanager-openrc network-manager-applet net-tools
         rc-update add NetworkManager default
 
 Setup firewall:

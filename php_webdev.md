@@ -117,7 +117,7 @@ enable file read-write for regular user.
     echo "<?php echo 'hello user-writable php'; ?>" > /srv/webdev/my_projects/test.php
     firefox http://localhost:8080/my_projects/test.php
 
-## Mysql database
+## SQL database
 
 Currently best open source SQL server is MariaDB.
 To install it run:

@@ -195,8 +195,7 @@ Enter mysql username/password you have set with mysql_secure_installation.
 
 ## Install IDE
 
-The PHP IDE project delivers a PHP Integrated Development Environment framework for the Eclipse platform.
-To install run:
+To install PHP IDE run:
 
     sudo pacman -S eclipse-php
 

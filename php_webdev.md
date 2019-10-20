@@ -179,6 +179,10 @@ Make sure the following lines are uncommented:
     extension=bz2.so
     extension=mysqli.so
 
+Restart php-fpm service
+
+    sudo rc-service php-fpm restart
+
 Link webapps directory:
 
     sudo ln -s /usr/share/webapps/ /srv/webdev/webapps

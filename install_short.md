@@ -74,7 +74,7 @@ nano /etc/hosts #add to file
         ::1 localhost
         127.0.1.1  myhost.localhost myhost
 
-pacman -S networkmanager networkmanager-openrc network-manager-applet
+pacman -S networkmanager networkmanager-openrc network-manager-applet net-tools
 
 rc-update add NetworkManager default
      

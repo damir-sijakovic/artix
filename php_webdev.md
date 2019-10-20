@@ -89,7 +89,7 @@ And add new configuration:
 
 Start services:
 
-      rc-service php-fpm-openrc start
+      rc-service php-fpm start
       rc-service nginx start
 
 Test html:

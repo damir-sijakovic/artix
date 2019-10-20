@@ -164,6 +164,30 @@ In database:
     show databases;
     exit;
     
+## phpMyAdmin
+
+Install phpmyadmin:
+
+    sudo pacman -S phpmyadmin 
+
+After installing, edit php.ini file,
+
+    sudo nano /etc/php/php.ini
+
+Make sure the following lines are uncommented:
+
+    extension=bz2.so
+    extension=mysqli.so
+
+Link webapps directory:
+
+    sudo ln -s /usr/share/webapps/ /srv/webdev/webapps
+
+Check in browser:
+
+    firefox http://localhost:8080/webapps/phpMyAdmin/index.php
+    
+Enter mysql username/password you have set with mysql_secure_installation.
 
 ## Install IDE
 

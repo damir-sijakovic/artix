@@ -22,7 +22,7 @@ Archlinux with OpenRC guide
 
 [Minimal win7-like desktop](https://github.com/damir-sijakovic/artix/blob/master/minimal_desktop.md)
 
-[Web Development Server](https://github.com/damir-sijakovic/artix/blob/master/php_webdev.md)
+[Web Development Server (php/mysql)](https://github.com/damir-sijakovic/artix/blob/master/php_webdev.md)
 
         
 ---

@@ -155,14 +155,24 @@ Follow steps like this:
     * Press Y to remove test database
     * Press Y to reload privilege table
     
- Test DB in terminal (first your Linux root pass and after sql root pass):
+Test DB in terminal (first your Linux root pass and after sql root pass):
  
     sudo mysql -u root -p
     
-In database:
+Test in database:
 
     show databases;
     exit;
+    
+To set that only localhost can access database, in file '/etc/my.cnf.d/server.cnf' find 
+line #bind-address, uncomment and set to 'bind-address=127.0.0.1'.
+
+    sudo nano /etc/my.cnf.d/server.cnf
+        bind-address=127.0.0.1
+
+Restart service
+
+    sudo rc-service mariadb start
     
 ## phpMyAdmin
 

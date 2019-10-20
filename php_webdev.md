@@ -14,9 +14,9 @@ We will use /srv/webdev directory as root for our web development server.
 
     sudo mkdir /srv/webdev
     sudo touch /srv/webdev/index.html
-    sudo echo /srv/webdev/index.html > "HELLO HTML"
+    sudo echo "HELLO HTML" > /srv/webdev/index.html 
     sudo touch /srv/webdev/test.php
-    sudo echo /srv/webdev/test.php > "<?php echo 'hello php'; ?>"
+    sudo echo "<?php echo 'hello php'; ?>" > /srv/webdev/test.php 
     
 ## Install packages
 

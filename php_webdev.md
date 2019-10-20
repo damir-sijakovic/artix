@@ -22,7 +22,7 @@ We will use /srv/webdev directory as root for our web development server.
 
 Run:
 
-    sudo pacman -S php php-fpm php-fpm-openrc nginx nginx-openrc    
+    sudo pacman -S php php-fpm php-fpm-openrc nginx nginx-openrc composer
   
 
 ## Setup Nginx

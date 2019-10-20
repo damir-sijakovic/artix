@@ -117,6 +117,54 @@ enable file read-write for regular user.
     echo "<?php echo 'hello user-writable php!'; ?>" /srv/webdev/my_projects/test.php
     firefox http://localhost:8080/my_projects/test.php
 
+## Mysql database
+
+Currently best open source SQL server is MariaDB.
+To install it run:
+
+    sudo pacman -S mysql
+
+Before you start service add user and data directory:
+
+    sudo mysql_install_db --user=mysql --datadir=/var/lib/mysql
+
+Start service:
+    
+    sudo rc-service mysql start
+    
+Note: If you get error 'Could not open required defaults file: /etc/mysql/my.cnf'
+use AlpineLinux init script for MariaDB:
+    
+    wget https://git.alpinelinux.org/aports/plain/main/mariadb/mariadb.initd
+    sudo cp mariadb.initd /etc/init.d/mariadb
+    sudo chmod 755 /etc/init.d/mariadb
+    sudo mysql_install_db --user=mysql --datadir=/var/lib/mysql
+    sudo rc-service mariadb start
+        
+Run mysql_secure_installation command:
+    
+    sudo mysql_secure_installation
+    
+Follow steps like this:
+
+    * Press enter (You have no root pass by default)
+    * Press n to not switch to unix_socket auth (we will use password)
+    * Press Y and set/type root password (twice)
+    * Press Y to remove anonymous users
+    * Press Y to disable root login remotely
+    * Press Y to remove test database
+    * Press Y to reload privilege table
+    
+ Test DB in terminal (first your Linux root pass and after sql root pass):
+ 
+    sudo mysql -u root -p
+    
+In database:
+
+    show databases;
+    exit;
+    
+
 ## Install IDE
 
 The PHP IDE project delivers a PHP Integrated Development Environment framework for the Eclipse platform.

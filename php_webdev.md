@@ -114,7 +114,7 @@ enable file read-write for regular user.
 
     sudo mkdir /srv/webdev/my_projects
     sudo chown $USER /srv/webdev/my_projects
-    echo "<?php echo 'hello user-writable php!'; ?>" /srv/webdev/my_projects/test.php
+    echo "<?php echo 'hello user-writable php'; ?>" > /srv/webdev/my_projects/test.php
     firefox http://localhost:8080/my_projects/test.php
 
 ## Mysql database

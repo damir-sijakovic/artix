@@ -135,11 +135,12 @@ Start service:
 Note: If you get error 'Could not open required defaults file: /etc/mysql/my.cnf'
 use AlpineLinux init script for MariaDB:
     
-    wget https://git.alpinelinux.org/aports/plain/main/mariadb/mariadb.initd
-    sudo cp mariadb.initd /etc/init.d/mariadb
-    sudo chmod 755 /etc/init.d/mariadb
+    sudo cp /etc/init.d/mysql /etc/init.d/mysql_OLD     
+    wget https://git.alpinelinux.org/aports/plain/main/mariadb/mariadb.initd    
+    sudo cp mariadb.initd /etc/init.d/mysql
+    sudo chmod 755 /etc/init.d/mysql
     sudo mysql_install_db --user=mysql --datadir=/var/lib/mysql
-    sudo rc-service mariadb start
+    sudo rc-service mysql start
         
 Run mysql_secure_installation command:
     
@@ -172,7 +173,7 @@ line #bind-address, uncomment and set to 'bind-address=127.0.0.1'.
 
 Restart service
 
-    sudo rc-service mariadb start
+    sudo rc-service mysql restart
     
 ## phpMyAdmin
 

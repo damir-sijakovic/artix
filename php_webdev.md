@@ -204,6 +204,24 @@ Check in browser:
     
 Enter mysql username/password you have set with mysql_secure_installation.
 
+## Composer (PHP Packet Manager)
+
+Composer is an application-level package manager for the PHP programming language 
+that provides a standard format for managing dependencies of PHP software and required libraries. 
+
+We will use r/w directory 'my_projects':
+
+    cd /srv/webdev/my_projects/
+
+Install Composer:
+
+    sudo pacman -S composer unzip
+    
+Install Laravel package:
+
+    composer create-project laravel/laravel ./myapp
+
+
 ## Install IDE
 
 To install PHP IDE run:

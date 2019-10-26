@@ -12,7 +12,7 @@ Download iso starting with 'artix-base-openrc'.
    
 su - 
 
-cfdisk /dev/sda # [new], [primary], [bootable], [write], 'yes'. 
+cfdisk /dev/sda # dos, [new], [primary], [bootable], [write], 'yes'. 
 
 mkfs.ext4 -L SYS /dev/sda1
 

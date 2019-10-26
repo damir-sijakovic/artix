@@ -13,10 +13,10 @@ We will install Nginx server, PHP (programming language) and later we will add M
 We will use /srv/webdev directory as root for our web development server.
 
     sudo mkdir /srv/webdev
-    sudo touch /srv/webdev/index.html
-    sudo echo "HELLO HTML" > /srv/webdev/index.html 
-    sudo touch /srv/webdev/test.php
-    sudo echo "<?php echo 'HELLO PHP'; ?>" > /srv/webdev/test.php 
+    sudo nano /srv/webdev/index.html
+        add: HELLO HTML 
+    sudo nano /srv/webdev/test.php
+        add: <?php echo 'HELLO PHP'; ?>
     
 ## Install packages
 

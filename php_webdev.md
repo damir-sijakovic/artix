@@ -29,7 +29,7 @@ Run:
 
 Backup original conf:
 
-    sudo cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf_old
+    sudo mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf_old
 
 Make new conf file:
 

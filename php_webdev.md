@@ -106,6 +106,7 @@ uncomment:
 
     pm.status_path = /status 
 
+![alt text](https://github.com/damir-sijakovic/artix/blob/master/files/phpfpm.png)
 
 ## Start services and test in browser
 

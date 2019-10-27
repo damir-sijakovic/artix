@@ -190,6 +190,7 @@ Make sure the following lines are uncommented:
 
     extension=bz2.so
     extension=mysqli.so
+    extension=intl.so
 
 Restart php-fpm service
 

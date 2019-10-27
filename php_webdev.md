@@ -170,8 +170,7 @@ use AlpineLinux init script for MariaDB:
     sudo mysql_install_db --user=mysql --datadir=/var/lib/mysql
     sudo rc-service mariadb start
 
-Later in text, use: 'sudo rc-service mariadb ...' instead of 'sudo rc-service mysql ...'.
-        
+<sub><sup>Later in text, use: 'sudo rc-service mariadb ...' instead of 'sudo rc-service mysql ...'.</sup></sub>     
         
 Run mysql_secure_installation command:
     

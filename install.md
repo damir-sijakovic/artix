@@ -130,6 +130,7 @@ To test if user was added in groups:
 
         groups myusername
 
+(Skip 'visudo' if you haven't setup your keyboard. Do this step after install.)
 Use 'visudo' to enable 'sudo' command for user uncomment '%wheel ALL=(ALL) ALL':
 
         visudo        

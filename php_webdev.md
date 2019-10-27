@@ -7,6 +7,7 @@ Archlinux with OpenRC guide
 ## Intro
 
 We will install Nginx server, PHP (programming language) and later we will add MYSQL database.
+Server is at port 8080 (replace it with another: 8888, 8000, 8008... here in text).
 
 ## Prepare directory
 
@@ -220,6 +221,16 @@ Install Composer:
 Install Laravel package:
 
     composer create-project laravel/laravel ./myapp
+
+Fix r/w directory access
+
+    chmod 777 /srv/webdev/my_projects/myapp/storage/framework/views
+    chmod 777 /srv/webdev/my_projects/myapp/storage/framework/sessions
+    
+Test front page (Add any string at page top)
+
+    nano /srv/webdev/my_projects/myapp/resources/views/welcome.blade.php
+    firefox http://localhost:8080/my_projects/myapp/public/
 
 
 ## Install IDE

@@ -94,6 +94,15 @@ And add new configuration:
           }
 
 
+## php-fpm monitor
+
+Monitor FastCGI connection between PHP and NGINX. 
+
+In file: '/etc/php/php-fpm.d/www.conf' uncomment:
+
+    pm.status_path = /status 
+
+
 ## Start services and test in browser
 
 Start services:

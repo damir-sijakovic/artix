@@ -163,10 +163,13 @@ use AlpineLinux init script for MariaDB:
     
     sudo cp /etc/init.d/mysql /etc/init.d/mysql_OLD     
     wget https://git.alpinelinux.org/aports/plain/main/mariadb/mariadb.initd    
-    sudo cp mariadb.initd /etc/init.d/mysql
-    sudo chmod 755 /etc/init.d/mysql
+    sudo cp mariadb.initd /etc/init.d/mariadb
+    sudo chmod 755 /etc/init.d/mariadb
     sudo mysql_install_db --user=mysql --datadir=/var/lib/mysql
-    sudo rc-service mysql start
+    sudo rc-service mariadb start
+
+Later in text, use: 'sudo rc-service mariadb ...' instead of 'sudo rc-service mysql ...'.
+        
         
 Run mysql_secure_installation command:
     

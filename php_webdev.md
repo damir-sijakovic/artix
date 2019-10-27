@@ -100,7 +100,7 @@ Monitor FastCGI connection between PHP and NGINX.
 
 In file: 
     
-    '/etc/php/php-fpm.d/www.conf' 
+    /etc/php/php-fpm.d/www.conf 
 
 uncomment:
 

@@ -81,6 +81,14 @@ And add new configuration:
                 fastcgi_index  index.php;
                 include        fastcgi.conf;
               }
+              
+               location ~ ^/(status|ping)$ {
+                allow 127.0.0.1;        
+                fastcgi_pass   unix:/var/run/php-fpm/php-fpm.sock;
+                fastcgi_index  index.php;
+                include        fastcgi.conf;
+               }
+
 
             }
           }
@@ -96,6 +104,10 @@ Start services:
 Test html:
 
       firefox http://localhost:8080
+
+Test php-fpm status page:
+
+      http://localhost:8080/status   
     
 Test php:
 

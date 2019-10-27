@@ -265,10 +265,13 @@ Test front page (Add any string at page top)
 
 
 ## Install IDE
-
 To install PHP IDE run:
 
     sudo pacman -S eclipse-php
+
+or
+
+    sudo pacman -S netbeans
 
 
 ---

@@ -231,7 +231,7 @@ Check in browser:
     
 Enter mysql username/password you have set with mysql_secure_installation.
 
-## Composer (PHP Packet Manager)
+## Composer (PHP Package Manager)
 
 Composer is an application-level package manager for the PHP programming language 
 that provides a standard format for managing dependencies of PHP software and required libraries. 

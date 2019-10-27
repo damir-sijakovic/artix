@@ -120,7 +120,7 @@ Test html:
 
 Test php-fpm status page:
 
-      http://localhost:8080/status   
+      http://localhost:8080/status?html&full
     
 Test php:
 

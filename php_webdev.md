@@ -98,7 +98,11 @@ And add new configuration:
 
 Monitor FastCGI connection between PHP and NGINX. 
 
-In file: '/etc/php/php-fpm.d/www.conf' uncomment:
+In file: 
+    
+    '/etc/php/php-fpm.d/www.conf' 
+
+uncomment:
 
     pm.status_path = /status 
 

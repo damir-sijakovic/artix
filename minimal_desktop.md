@@ -13,7 +13,7 @@ close to Windows7 but more configurable and simpler to use.
 
 After base install and when you have booted into new system, run:
 
-        sudo pacman -S xorg xfce4 xfce4-goodies pamac xarchiver p7zip unzip pulseaudio firefox    
+        sudo pacman -S xorg xfce4 xfce4-goodies pamac xarchiver p7zip unzip pulseaudio firefox telegram-desktop
         
 After installation run:
 
@@ -44,9 +44,11 @@ Find your graphics card:
 Google:
         yourGfxCard archlinux install
 
+## Get help online
 
+Run telegram-desktop and go to https://t.me/artixlinux group.
 
-## Get back to terminal
+## Get back to terminal (exit Xorg)
 
 Simply Logout.
         

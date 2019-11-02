@@ -13,7 +13,7 @@ close to Windows7 but more configurable and simpler to use.
 
 After base install and when you have booted into new system, run:
 
-        sudo pacman -S xorg xfce4 xfce4-goodies pamac xarchiver p7zip unzip pulseaudio firefox telegram-desktop
+        sudo pacman -S xorg xfce4 xfce4-goodies pamac xarchiver p7zip unzip pulseaudio firefox telegram-desktop ttf-opensans ttf-liberation ttf-font-awesome
         
 After installation run:
 
@@ -24,7 +24,9 @@ After installation run:
 To get themes go to: [xfce-look](https://www.xfce-look.org). In your home folder
 create .themes (ctrl+h to show hidden files) and unpack your theme archive inside. 
 To add fonts create .fonts folder and drop font files inside.
-Go to Settings->Appearance to set theme and font.
+Go to Settings->Appearance to set theme and font. Change font
+to 'Noto Sans' (Firefox install), 'liberation mono' for terminal.
+Normal OS typography needs are covered with Noto, Liberation, Open Sans and Source Code Pro. 
 
 
 ## Local Keyboard

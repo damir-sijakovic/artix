@@ -13,7 +13,7 @@ close to Windows7 but more configurable and simpler to use.
 
 After base install and when you have booted into new system, run:
 
-        sudo pacman -S xorg xfce4 xfce4-goodies pamac xarchiver p7zip unzip pulseaudio firefox telegram-desktop ttf-opensans ttf-liberation ttf-font-awesome
+        sudo pacman -S xorg xfce4 xfce4-goodies pamac xarchiver catfish p7zip unzip pulseaudio firefox telegram-desktop ttf-opensans ttf-liberation ttf-font-awesome
         
 After installation run:
 

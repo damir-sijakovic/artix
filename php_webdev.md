@@ -215,10 +215,20 @@ In php.ini set:
     log_errors = On
     error_log = /var/log/php_errors.log
 
+Create log file:
+
+    touch /var/log/php_errors.log
+    sudo chown http /var/log/php_errors.log
+   
 Create somewhere php_error_log.sh with:
     
     #!/bin/bash
     tail -f /var/log/php_errors.log
+
+Or just run in terminal (for example in your php editors terminal):
+    
+    tail -f /var/log/php_errors.log
+
 
 ## phpMyAdmin
 

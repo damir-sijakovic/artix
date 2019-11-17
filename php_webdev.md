@@ -204,7 +204,22 @@ line #bind-address, uncomment and set to 'bind-address=127.0.0.1'.
 Restart service
 
     sudo rc-service mysql restart
+
+## Error log
+
+In php.ini set:
     
+    Development Value: E_ALL
+    display_errors = Off
+    log_errors = On
+    display_startup_errors = Off
+    error_log = /var/log/php_errors.log
+
+Create somewhere php_error_log.sh with:
+    
+    #!/bin/bash
+    tail -f /var/log/php_errors.log
+
 ## phpMyAdmin
 
 Install phpmyadmin:

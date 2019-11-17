@@ -209,10 +209,10 @@ Restart service
 
 In php.ini set:
     
-    Development Value: E_ALL
-    display_errors = Off
+    error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT
+    display_errors = Off    
+    display_startup_errors = On
     log_errors = On
-    display_startup_errors = Off
     error_log = /var/log/php_errors.log
 
 Create somewhere php_error_log.sh with:

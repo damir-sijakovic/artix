@@ -229,6 +229,7 @@ Or just run in terminal (for example in your php editors terminal):
     
     tail -f /var/log/php_errors.log
 
+![alt text](https://github.com/damir-sijakovic/artix/blob/master/files/geany_php.png)
 
 ## phpMyAdmin
 

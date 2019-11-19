@@ -342,16 +342,16 @@ and
 
 PHP IDEs:
 
-Eclipse-php:   sudo pacman -S eclipse-php
-Netbeans:      sudo pacman -S netbeans
-PHPStorm:      trizen -S phpstorm   
+    Eclipse-php:   sudo pacman -S eclipse-php
+    Netbeans:      sudo pacman -S netbeans
+    PHPStorm:      trizen -S phpstorm   
 
 DEV EDITORS: 
 
-Geany:         sudo pacman -S geany geany-plugins 
-Sublime:       trizen -S sublime-text2
-Atom:          sudo pacman -S atom
-VScode:        sudo pacman -S code
-Brackets       trizen -S brackets
+    Geany:         sudo pacman -S geany geany-plugins 
+    Sublime:       trizen -S sublime-text2
+    Atom:          sudo pacman -S atom
+    VScode:        sudo pacman -S code
+    Brackets       trizen -S brackets
 
 ---

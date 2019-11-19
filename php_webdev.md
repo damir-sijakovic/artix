@@ -205,7 +205,49 @@ Restart service
 
     sudo rc-service mysql restart
 
-## Error log
+## mySQL Audit Log
+First check if there is audit plugin.
+Run to get plugin path:
+
+    SHOW GLOBAL VARIABLES LIKE 'plugin_dir'
+
+    => /usr/lib64/mysql/plugin/
+
+Look for 'server_audit.so' file.
+
+Add in '/etc/my.cnf.d/server.cnf' under [mysqld].
+
+    # load plugin
+    plugin-load=server_audit=server_audit.so
+    # do not allow users to uninstall plugin
+    server_audit=FORCE_PLUS_PERMANENT
+    # only audit connections and DDL queries
+    server_audit_events=CONNECT,QUERY
+    # enable logging
+    server_audit_logging=ON
+    # any users who don’t need auditing (csv)
+    server_audit_excl_users=’root’
+    # flat file
+    server_audit_output_type=FILE
+    server_audit_file_path=/var/log/mysql_audit.log
+    server_audit_file_rotate_size=1000000
+    server_audit_file_rotations=9
+
+Check if plugin is loaded in sql database.
+
+    SHOW PLUGINS;
+
+Set log file:
+
+    sudo touch /var/log/mysql_audit.log
+    sudo chown mysql /var/log/mysql_audit.log
+
+Restart services, and test with:
+
+    tail -f /var/log/mysql_audit.log
+
+
+## PHP Error Log
 
 In php.ini set:
     

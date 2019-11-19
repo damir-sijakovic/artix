@@ -331,14 +331,27 @@ Test front page (Add any string at page top)
     firefox http://localhost:8080/my_projects/myapp/public/
 
 
-## Install IDE
-To install PHP IDE run:
+## Install IDEs, Editors and Extra Stuff
+To see everything releated with php in main package repo run:
 
-    sudo pacman -S eclipse-php
+    pacman -Ss php
 
-or
+and 
+    
+    trizen -Ss php
 
-    sudo pacman -S netbeans
+PHP IDEs:
 
+Eclipse-php:   sudo pacman -S eclipse-php
+Netbeans:      sudo pacman -S netbeans
+PHPStorm:      trizen -S phpstorm   
+
+DEV EDITORS: 
+
+Geany:         sudo pacman -S geany geany-plugins 
+Sublime:       trizen -S sublime-text2
+Atom:          sudo pacman -S atom
+VScode:        sudo pacman -S code
+Brackets       trizen -S brackets
 
 ---

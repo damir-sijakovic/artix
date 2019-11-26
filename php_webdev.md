@@ -374,8 +374,8 @@ Then from within 'use_lampstack' enviroment run composer:
     
     composer create-project --prefer-dist laravel/laravel blog
 
-If you need to run something as normal user within 'use_lampstack' enviroment 
-(like: bin/cake from CakePHP) run it like this:
+If you need to run something as normal user within 'use_lampstack' enviroment, 
+(like: bin/cake from CakePHP), run it like this:
 
     sudo -u myusername ./cake bake model users
 

@@ -354,4 +354,34 @@ DEV EDITORS:
     VScode:        sudo pacman -S code
     Brackets       trizen -S brackets
 
+## Apache Server (LAMP)
+
+If you need an Apache server (CakePHP) download and install:
+
+    https://bitnami.com/stack/lamp
+
+Go to '/opt' dir and backup-copy installed lampstack dir.   
+
+User rw directory
+
+Create link from your 'home/myusername/lamp_dev' to '/opt/lampstack/apache2/htdocs/phpdev'.
+
+    ln -s home/myusername/lamp_dev /opt/lampstack/apache2/htdocs/myphp
+
+Composer
+
+To use composer and other php utilities you will need to get into lamp enviroment with:
+
+    sudo /opt/lampstack/use_lampstack
+
+Then from within run composer:
+    
+    composer create-project --prefer-dist laravel/laravel blog
+
+If you need to run something as normal user (like: bin/cake from CakePHP) run it like this:
+
+    sudo -u myusername ./cake bake model users
+
+
+
 ---

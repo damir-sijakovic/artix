@@ -346,7 +346,7 @@ PHP IDEs:
     Netbeans:      sudo pacman -S netbeans
     PHPStorm:      trizen -S phpstorm   
 
-DEV EDITORS: 
+Developer text editors: 
 
     Geany:         sudo pacman -S geany geany-plugins 
     Sublime:       trizen -S sublime-text2
@@ -362,23 +362,20 @@ If you need an Apache server (CakePHP) download and install:
 
 Go to '/opt' dir and backup-copy installed lampstack dir.   
 
-User rw directory
-
-Create link from your 'home/myusername/lamp_dev' to '/opt/lampstack/apache2/htdocs/phpdev'.
+For user rw directory, create link from your 'home/myusername/lamp_dev' to '/opt/lampstack/apache2/htdocs/phpdev'.
 
     ln -s home/myusername/lamp_dev /opt/lampstack/apache2/htdocs/myphp
-
-Composer
 
 To use composer and other php utilities you will need to get into lamp enviroment with:
 
     sudo /opt/lampstack/use_lampstack
 
-Then from within run composer:
+Then from within 'use_lampstack' enviroment run composer:
     
     composer create-project --prefer-dist laravel/laravel blog
 
-If you need to run something as normal user (like: bin/cake from CakePHP) run it like this:
+If you need to run something as normal user within 'use_lampstack' enviroment 
+(like: bin/cake from CakePHP) run it like this:
 
     sudo -u myusername ./cake bake model users
 

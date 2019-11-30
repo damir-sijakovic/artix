@@ -58,5 +58,11 @@ Appimages are self-contained one-file applications.
 You can download appimages from: [AppImage Hub](https://www.appimagehub.com)
 
 
-   
+## Fixing some issues
+
+Some packages (vagrant) require '/etc/arch-release' file to be in the system
+
+        sudo touch /etc/arch-release 
+
+
 ---

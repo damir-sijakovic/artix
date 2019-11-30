@@ -341,7 +341,7 @@ and
     trizen -Ss php
 
 PHP IDEs:
-
+    CodeLite:      trizen -S codelite 
     Eclipse-php:   sudo pacman -S eclipse-php
     Netbeans:      sudo pacman -S netbeans
     PHPStorm:      trizen -S phpstorm   

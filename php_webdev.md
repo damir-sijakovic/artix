@@ -293,9 +293,11 @@ Restart php-fpm service
 
     sudo rc-service php-fpm restart
 
-Link webapps directory:
+Link webapps directory and set './tmp' dir rw:
 
     sudo ln -s /usr/share/webapps/ /srv/webdev/webapps
+    sudo mkdir /srv/webdev/webapps/phpMyAdmin/tmp
+    sudo chown -R http:http /srv/webdev/webapps/phpMyAdmin/tmp
 
 Check in browser:
 
